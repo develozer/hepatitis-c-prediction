@@ -1,11 +1,23 @@
-# Hepatitis C Prediction
+# Hepatitis C Prediction (Data Mining / ML)
 
-This project focuses on predicting hepatitis C using machine learning techniques.
+## Overview
+This project focuses on predicting hepatitis C using data mining techniques. 
 
-- Dataset: 615 records
-- Models: KNN, SVM, XGBoost, etc.
-- Best result: 98.4% accuracy (XGBoost)
+## Dataset
+615 blood test records with multiple biochemical markers.
 
-## My Work
+## Methods
 - Data preprocessing
-- Model training and evaluation
+- Model evaluation using KNN, SVM, Decision Tree, Logistic Regression, XGBoost, and ANN
+- Performance metrics: Accuracy, AUC
+
+## Results
+- Best model: XGBoost
+- Accuracy: 98.4%
+- AUC: > 0.94
+- Most important marker: AST
+
+## My Contribution
+- Data preprocessing
+- Model implementation and evaluation
+- Result analysis
